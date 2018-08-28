@@ -1,0 +1,3 @@
+[submodule "poe"]
+	path = poe
+	url = https://github.com/santteegt/proof-of-existence-on-blockchain.git

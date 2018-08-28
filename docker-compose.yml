@@ -65,3 +65,15 @@ services:
             - masternode
         depends_on:
             - masternode
+    app:
+        build: ./app
+        stdin_open: true
+        tty: true
+        ports:
+            - 8180:80
+        volumes:
+            - ./poe:/var/www/html/poe
+        links:
+            - masternode
+        depends_on:
+            - masternode

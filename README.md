@@ -1,8 +1,10 @@
-# docker-multichain
+# Proof-of-Existence (PoE) & Docker-Multichain
 
-This is the repository for the kunstmaan/*-multichain docker images.
+This repository can be used as a boilerplate demo for faster deployment of Multichain nodes, with the aim to demonstrate its functionalities using app examples. Demo apps include [Multichain Web Demo](https://github.com/MultiChain/multichain-web-demo) & [Proof-of-Existence on Blockchain](https://github.com/santteegt/proof-of-existence-on-blockchain).
 
 ## Images
+
+Instead of using published docker image Ids directly, original Dockerfiles were included in order to demonstrate how Multichain nodes are being setup. Images were forked from [https://github.com/santteegt/docker-multichain](https://github.com/santteegt/docker-multichain), but original repo is [https://github.com/Kunstmaan/docker-multichain](https://github.com/Kunstmaan/docker-multichain)
 
 * [kunstmaan/base-multichain](https://hub.docker.com/r/kunstmaan/base-multichain/): A base Ubuntu with the latest Multichain deamon installed
 * [kunstmaan/master-multichain](https://hub.docker.com/r/kunstmaan/master-multichain/): Based on the "base" image running a master node, creates a blockchain and runs it. *Important: only for development since any node can connect, anyone can administer and the RPC interface is open to all.*
@@ -121,3 +123,7 @@ To configure your chain, we use environment variables.
 ### Multichain Web Demo
 
 [Multichain Web Demo](https://github.com/MultiChain/multichain-web-demo) is installed on the Masternode and is available at [http://localhost:8080/multichain-web-demo](http://localhost:8080/multichain-web-demo)
+
+### Proof-of-Existence on Blockchain Demo
+
+[Proof-of-Existence on Blockchain](https://github.com/santteegt/proof-of-existence-on-blockchain) is deployed in the [app](app/) container and is accessible through the URL [http://localhost:8180/poe/](http://localhost:8180/poe/)

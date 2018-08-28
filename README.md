@@ -2,6 +2,12 @@
 
 This repository can be used as a boilerplate demo for faster deployment of Multichain nodes, with the aim to demonstrate its functionalities using app examples. Demo apps include [Multichain Web Demo](#multichain-web-demo) & [Proof-of-Existence on Blockchain](#proof-of-existence-on-blockchain-demo).
 
+To clone the entire repository use the following command:
+
+```bash
+~$ git clone --recurse-submodules https://github.com/santteegt/poe-docker-multichain.git
+```
+
 ## Images
 
 Instead of using published docker image Ids directly, original Dockerfiles were included in order to demonstrate how Multichain nodes are being setup. Images were forked from [https://github.com/santteegt/docker-multichain](https://github.com/santteegt/docker-multichain), but original repo is [https://github.com/Kunstmaan/docker-multichain](https://github.com/Kunstmaan/docker-multichain)

@@ -1,6 +1,6 @@
 # Proof-of-Existence (PoE) & Docker-Multichain
 
-This repository can be used as a boilerplate demo for faster deployment of Multichain nodes, with the aim to demonstrate its functionalities using app examples. Demo apps include [Multichain Web Demo](https://github.com/MultiChain/multichain-web-demo) & [Proof-of-Existence on Blockchain](https://github.com/santteegt/proof-of-existence-on-blockchain).
+This repository can be used as a boilerplate demo for faster deployment of Multichain nodes, with the aim to demonstrate its functionalities using app examples. Demo apps include [Multichain Web Demo](#multichain-web-demo) & [Proof-of-Existence on Blockchain](#proof-of-existence-on-blockchain-demo).
 
 ## Images
 
